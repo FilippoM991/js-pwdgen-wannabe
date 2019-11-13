@@ -8,20 +8,41 @@ main {
     width: 100vw;
     background-image: url(https://i.pinimg.com/originals/fd/19/f1/fd19f175725faccb9f4ab18f072e6431.jpg);
     background-repeat: no-repeat;
-    padding-top: 50px;
+    padding: 50px 0;
     background-size:cover;
     background-position: center;
-    text-align: center;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
 #titolo {
-
     font-style: italic;
     font-weight: bold;
 }
 #principale {
-
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 22px;
+}
+#ape {
+    align-self: flex-start;
+    position: absolute;
+    bottom: 100px;
 
+}
+#ape img {
+    width: 200px;
+    margin-right: 10px;
+}
+#ape p {
+    display: inline-block;
+    max-width: 400px;
+    position: relative;
+    bottom: 50px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius:20px;
+    font-style: italic;
 }
